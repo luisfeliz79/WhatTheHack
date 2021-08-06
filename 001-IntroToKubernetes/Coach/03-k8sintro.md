@@ -5,7 +5,7 @@
 ## Notes & Guidance
 
 - Remind teams that kubectl can be installed through the CLI, but don’t give away the answer:
-	- `az aks install-cli`
+	- `sudo az aks install-cli`
 - All teams should have an AKS cluster stood up relatively quickly but they will likely need some hints regarding the correct parameters for the `az aks create` command.
 	- The default Kubernetes version used by the az aks create command should be fine.  
 	- The CLI should be used to create the cluster to give the most realistic experience.  
