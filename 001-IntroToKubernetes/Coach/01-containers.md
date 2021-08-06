@@ -31,8 +31,8 @@
 - Dockerfiles for both content-api and content-web are in the Coach Solutions folder for Challenge 1
 	- The value of the env URL for content-web should match whatever value is used for the --name parameter when executing docker run on content-api as seen below.
 - Build Docker images for both content-api & content-web. 
-	- `docker build –t content-api .`
-	- `docker build –t content-web .`
+	- `docker build . –t content-api`
+	- `docker build . –t content-web`
 - Run the applications in the Docker containers in a network and verify access
 	- Create a Docker network named **fabmedical**: 
 		- `docker network create fabmedical`
